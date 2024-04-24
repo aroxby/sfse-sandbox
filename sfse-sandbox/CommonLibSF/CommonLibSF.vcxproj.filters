@@ -1,0 +1,1374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\A\Actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\A\ActorEquipManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\A\Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\B\BGSKeywordForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\B\BSLock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\B\BSLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\B\BSSystemFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\C\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\E\ExtraLock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\F\FormTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\I\idLogging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\I\idTCP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\M\Misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\N\NiPoint3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\P\PlayerCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\P\PlayerCharacter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\S\StackFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\S\Struct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TESFormRefCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TESNPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TESObjectCELL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TESObjectREFR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TESWorldSpace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TypeInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\V\Variable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\REL\ID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\API.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\IAT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\Impl\WinAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\InputMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\Interfaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\Trampoline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\Actor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorEquipManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorPackage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorValueInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorValueOwner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorValues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorValueStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\AIProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\AlchemyItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ArrowProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\AVMData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BarrierProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BaseFormComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BeamProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAcousticSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAddonNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAffinityEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAimAssistModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAimAssistPoseData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAimDownSightModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAimModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAimOpticalSightModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAmbienceSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAnimationGraphComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSArtObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAtmosphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAttachParentArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAttackDataForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAttractionRule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAudioOcclusionPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBaseForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBendableSpline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBiome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBiomeMarkerObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBipedObjectForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBlockBashData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBodyPartData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBodyPartDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBodyPartInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBoneModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCameraPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCameraShot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSChallengeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCloudForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCollisionLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSColorForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSConditionForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSConstructibleObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCraftableForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCraftingResourceOwner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCraftingUseSound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCurve3DForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCurveForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDamageType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDebris.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDefaultObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDefaultObjectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDestructibleObjectForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDirectionalAmbientLightingColors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEditorID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEffectSequenceForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEquipIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEquipSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEquipType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSExplosion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSFeaturedItemMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSFogVolumeForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSFootstep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSFootstepSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSForceData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSForcedLocRefType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSFormFolderKeywordList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSGenericBaseForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSGenericBaseFormTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSGroundCover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSHazard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSHeadPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSIdleCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSIdleMarker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSImpactData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSImpactDataSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSInstanceNamingRules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSInstanceNamingRulesForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSInventoryInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSInventoryItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSInventoryList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSKeyword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSKeywordForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLayeredMaterialSwap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLegendaryItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLensFlare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLevGenericBaseForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLevPackIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLevSpaceCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLightingTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSListForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLocalizedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLocalizedStringDL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLocationRefType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMaterialPathForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMaterialType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMeleeAimAssistModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMenuDisplayObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSModelMaterialSwap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMorphableObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMovableStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMovementType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSNativeTerminalForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSNavmeshableObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSObjectInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSObjectPlacementDefaults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSObjectSwap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSOpenCloseForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSOutfit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSOverridePackCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPackIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSParticleSystemDefineCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPerk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPerkRankArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPersistentIDsForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPhotoModeFeature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPickupPutdownSounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPlanetData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPreloadable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPreviewTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSProjectedDecal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPropertySheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSReferenceGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSReflectedForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSResearchProjectForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSResourceGenerationData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSReverbParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSecondaryDamageList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSShaderParticleGeometryData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSkinForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSnapBehavior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSnapTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSnapTemplateComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSnapTemplateNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSoundEcho.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSoundKeywordMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSoundTagSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSpeechChallengeObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSStar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSStaticCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSunPresetForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSurfaceBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSurfacePattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSurfacePatternStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSurfaceTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTalkingActivator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTerminal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTerminalMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTextureModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTextureSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTimeOfDayData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTraversal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTypedFormValuePair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTypedKeywordValueArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSVoiceType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSVolumetricLighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSWeaponBarrelModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSWeatherSettingsForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSWwiseEventForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSWwiseKeywordMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSBlendable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSColorCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSExtraData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSFixedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSFloat3DCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSFloatCurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSInputEventReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSInputEventUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSIntrusiveRefCounted.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSReflection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSStringPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSStringT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSSystemFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTOptional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTSmartPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTTuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTTuple3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\CodeTasklet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\CollisionLayers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\CombatGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\ConeProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\ConsoleLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\D\DebuggerMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\D\DecalData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\EffectArchetypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\EffectItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\EffectSetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\EmitterProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\EnchantmentItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\ErrorLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\ExtraDataList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\ExtraDataTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\ExtraLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\F\FactionRank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\F\FlameProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\F\FormTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\F\FORM_ENUM_STRING.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\G\GameMenuBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\G\GrenadeProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\H\HandlePolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\H\Hazard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IAddressControllerStore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IAnimationGraphManagerHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IBGSBaseFormData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\ICachedErrorMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IComplexType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\idLogging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\idTCP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IFuncCallQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IKeywordFormBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IMovementInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IMovementPlayerControlsFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IMovementState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IMovementStateStore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\ImpactResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\INIPrefSettingCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\INISettingCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\InteriorData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IObjectHandlePolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IPostAnimationChannelUpdateFunctor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\ISavePatcherInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IStoreAnimationActions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVirtualMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVMDebugInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVMFunctionMessageDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVMObjectBindInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVMRemoteDebuggerInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVMSaveLoadInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\IDs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\IDs_NiRTTI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\IDs_RTTI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\IDs_VTABLE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\L\Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\L\LockPickedEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\L\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MagicItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MagicSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MagicTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MemoryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MenuOpenCloseEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\Misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MissileProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\msvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NativeFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NativeFunctionBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiMatrix3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiPoint2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiPoint3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiPoint4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiSmartPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\O\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\O\ObjectBindPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\O\ObjectTypeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PerkRankData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PlasmaProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PlayerCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PlayerCharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PropertyGroupInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PropertyTypeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\R\RawFuncCallQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\R\RegSettingCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\RTTI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SavePatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxASMovieRootBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxFileTypeConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxFunctionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxMovie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxStateBag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformRefCount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\Script.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\Setting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SettingCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SettingCollectionList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SettingCollectionMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\Sexes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SpellItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\StackFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\Struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\StructTypeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SWFToCodeFunctionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\Starfield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TBO_InstanceData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESActorBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESActorBaseData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESAIForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESAmmo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESBipedModelForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESBoundAnimObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESBoundObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESCellFullyLoadedEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESClimate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESCombatStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESCondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESContainerChangedEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESDataHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESDeathEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESDescription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESEffectShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESEnchantableForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESEyes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFlora.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFormRefCount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFullName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFurniture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESGrass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESHandleForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESIdleForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESImageSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESImageSpaceModifiableForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLandTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLevCharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLeveledList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLevItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLevSpell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLoadScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESMagicTargetForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESModelTri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESNPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectACTI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectANIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectARMA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectARMO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectBOOK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectCELL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectCONT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectDOOR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectLIGH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectLoadedEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectMISC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectREFR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectSTAT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectWEAP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESPackage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESProduceForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESQuest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESRace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESRaceForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESResponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESSound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESSpellList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESTopicInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESValueForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESWaterForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESWeather.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESWeightForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESWorldSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TypeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\U\UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\V\Variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\W\WwiseGUID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\W\WwiseSoundHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\ID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\Offset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\Pattern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\REL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\Relocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\API.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\IAT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Impl\DInputAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Impl\PCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Impl\Stubs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Impl\WinAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Impl\XInputAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\InputMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Interfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\SFSE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Trampoline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

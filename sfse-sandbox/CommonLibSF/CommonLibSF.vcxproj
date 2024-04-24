@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\REL\ID.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\A\Actor.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\A\ActorEquipManager.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\A\Array.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\B\BGSKeywordForm.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\B\BSLock.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\B\BSLog.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\B\BSSystemFile.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\C\Color.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\E\ExtraLock.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\F\FormTypes.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\I\idLogging.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\I\idTCP.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\M\Misc.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\N\NiPoint3.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\P\PlayerCamera.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\P\PlayerCharacter.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\S\StackFrame.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\S\Struct.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TESFormRefCount.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TESNPC.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TESObjectCELL.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TESObjectREFR.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TESWorldSpace.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\T\TypeInfo.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\RE\V\Variable.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\API.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\IAT.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\Impl\WinAPI.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\InputMap.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\Interfaces.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\Logger.cpp" />
+    <ClCompile Include="..\..\CommonLibSF\CommonLibSF\src\SFSE\Trampoline.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\ID.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\Module.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\Offset.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\Pattern.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\REL.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\Relocation.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\REL\Version.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\Actor.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorEquipManager.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorPackage.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorState.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorValueInfo.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorValueOwner.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorValues.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ActorValueStorage.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\AIProcess.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\AlchemyItem.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\Array.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\ArrowProjectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\A\AVMData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BarrierProjectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BaseFormComponent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BeamProjectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAcousticSpace.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAction.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAddonNode.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAffinityEvent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAimAssistModel.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAimAssistPoseData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAimDownSightModel.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAimModel.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAimOpticalSightModel.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAmbienceSet.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAnimationGraphComponent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSArtObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAtmosphere.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAttachParentArray.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAttackDataForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAttractionRule.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSAudioOcclusionPrimitive.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBaseForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBendableSpline.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBiome.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBiomeMarkerObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBipedObjectForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBlockBashData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBodyPartData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBodyPartDefs.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBodyPartInfo.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSBoneModifier.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCameraPath.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCameraShot.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSChallengeForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCloudForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCollisionLayer.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSColorForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSConditionForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSConstructibleObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCraftableForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCraftingResourceOwner.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCraftingUseSound.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCurve3DForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSCurveForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDamageType.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDebris.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDefaultObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDefaultObjectManager.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDestructibleObjectForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSDirectionalAmbientLightingColors.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEditorID.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEffectSequenceForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEntryPoint.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEquipIndex.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEquipSlot.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSEquipType.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSExplosion.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSFeaturedItemMessage.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSFogVolumeForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSFootstep.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSFootstepSet.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSForceData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSForcedLocRefType.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSFormFolderKeywordList.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSGenericBaseForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSGenericBaseFormTemplate.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSGroundCover.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSHazard.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSHeadPart.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSIdleCollection.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSIdleMarker.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSImpactData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSImpactDataSet.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSInstanceNamingRules.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSInstanceNamingRulesForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSInventoryInterface.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSInventoryItem.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSInventoryList.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSKeyword.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSKeywordForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLayeredMaterialSwap.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLegendaryItem.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLensFlare.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLevGenericBaseForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLevPackIn.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLevSpaceCell.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLightingTemplate.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSListForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLocalizedString.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLocalizedStringDL.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLocation.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSLocationRefType.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMaterialPathForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMaterialType.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMeleeAimAssistModel.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMenuDisplayObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMessage.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMod.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSModelMaterialSwap.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMorphableObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMovableStatic.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSMovementType.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSNativeTerminalForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSNavmeshableObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSObjectInstance.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSObjectPlacementDefaults.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSObjectSwap.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSOpenCloseForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSOutfit.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSOverridePackCollection.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPackIn.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSParticleSystemDefineCollection.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPerk.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPerkRankArray.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPersistentIDsForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPhotoModeFeature.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPickupPutdownSounds.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPlanetData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPreloadable.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPreviewTransform.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSProjectedDecal.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSProjectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSPropertySheet.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSReferenceGroup.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSReflectedForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSResearchProjectForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSResource.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSResourceGenerationData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSReverbParameters.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSScene.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSecondaryDamageList.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSShaderParticleGeometryData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSkinForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSnapBehavior.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSnapTemplate.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSnapTemplateComponent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSnapTemplateNode.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSoundEcho.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSoundKeywordMapping.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSoundTagSet.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSpeechChallengeObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSStar.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSStaticCollection.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSunPresetForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSurfaceBlock.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSurfacePattern.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSurfacePatternStyle.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSSurfaceTree.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTalkingActivator.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTerminal.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTerminalMenu.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTextureModel.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTextureSet.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTimeOfDayData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTransform.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTraversal.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTypedFormValuePair.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSTypedKeywordValueArray.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSVoiceType.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSVolumetricLighting.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSWeaponBarrelModel.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSWeatherSettingsForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSWwiseEventForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BGSWwiseKeywordMapping.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSBlendable.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSColorCurve.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSContainer.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSExtraData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSFixedString.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSFloat3DCurve.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSFloatCurve.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSInputEventReceiver.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSInputEventUser.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSIntrusiveRefCounted.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSLock.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSLog.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSReflection.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSStringPool.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSStringT.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSSystemFile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTArray.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTEvent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTList.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTOptional.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTSingleton.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTSmartPointer.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTTuple.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\B\BSTTuple3.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\CodeTasklet.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\CollisionLayers.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\Color.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\CombatGroup.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\ConeProjectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\Console.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\C\ConsoleLog.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\D\DebuggerMessages.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\D\DecalData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\EffectArchetypes.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\EffectItem.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\EffectSetting.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\EmitterProjectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\EnchantmentItem.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\ErrorLogger.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\ExtraDataList.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\ExtraDataTypes.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\E\ExtraLock.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\F\FactionRank.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\F\FlameProjectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\F\FormTypes.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\F\FORM_ENUM_STRING.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\G\GameMenuBase.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\G\GrenadeProjectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\H\HandlePolicy.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\H\Hazard.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\IDs.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\IDs_NiRTTI.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\IDs_RTTI.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\IDs_VTABLE.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IAddressControllerStore.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IAnimationGraphManagerHolder.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IBGSBaseFormData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\ICachedErrorMessage.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IComplexType.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\idLogging.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\idTCP.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IFuncCallQuery.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IFunction.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IKeywordFormBase.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IMenu.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IMovementInterface.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IMovementPlayerControlsFilter.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IMovementState.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IMovementStateStore.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\ImpactResults.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\INIPrefSettingCollection.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\INISettingCollection.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\InteriorData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IObjectHandlePolicy.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IPostAnimationChannelUpdateFunctor.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\ISavePatcherInterface.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IStoreAnimationActions.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVirtualMachine.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVMDebugInterface.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVMFunctionMessageDispatch.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVMObjectBindInterface.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVMRemoteDebuggerInterface.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\I\IVMSaveLoadInterface.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\L\Location.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\L\LockPickedEvent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\L\Logger.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MagicItem.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MagicSystem.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MagicTarget.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MemoryManager.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MenuOpenCloseEvent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\Misc.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\MissileProjectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\M\msvc.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NativeFunction.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NativeFunctionBase.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiColor.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiMatrix3.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiPoint2.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiPoint3.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiPoint4.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiSmartPointer.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\N\NiTransform.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\O\Object.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\O\ObjectBindPolicy.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\O\ObjectTypeInfo.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PerkRankData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PlasmaProjectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PlayerCamera.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PlayerCharacter.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\Projectile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PropertyGroupInfo.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\P\PropertyTypeInfo.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\RTTI.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\R\RawFuncCallQuery.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\R\RegSettingCollection.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\Starfield.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SavePatcher.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxASMovieRootBase.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxFileTypeConstants.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxFunctionHandler.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxMovie.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxState.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxStateBag.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformGFxValue.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformPtr.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\ScaleformRefCount.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\Script.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\Setting.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SettingCollection.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SettingCollectionList.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SettingCollectionMap.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\Sexes.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SpellItem.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\Stack.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\StackFrame.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\Struct.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\StructTypeInfo.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\S\SWFToCodeFunctionHandler.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TBO_InstanceData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESActorBase.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESActorBaseData.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESAIForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESAmmo.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESBipedModelForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESBoundAnimObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESBoundObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESCamera.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESCellFullyLoadedEvent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESClass.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESClimate.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESCombatStyle.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESCondition.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESContainer.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESContainerChangedEvent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESDataHandler.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESDeathEvent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESDescription.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESEffectShader.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESEnchantableForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESEyes.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFaction.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFile.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFlora.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFormRefCount.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFullName.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESFurniture.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESGlobal.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESGrass.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESHandleForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESIdleForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESImageSpace.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESImageSpaceModifiableForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESKey.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLandTexture.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLevCharacter.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLeveledList.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLevItem.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLevSpell.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESLoadScreen.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESMagicTargetForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESModel.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESModelTri.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESNPC.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObject.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectACTI.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectANIO.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectARMA.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectARMO.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectBOOK.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectCELL.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectCONT.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectDOOR.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectLIGH.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectLoadedEvent.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectMISC.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectREFR.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectSTAT.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESObjectWEAP.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESPackage.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESProduceForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESQuest.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESRace.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESRaceForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESRegion.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESResponse.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESSound.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESSpellList.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESTexture.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESTopicInfo.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESValueForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESWaterForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESWeather.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESWeightForm.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TESWorldSpace.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\T\TypeInfo.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\U\UI.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\V\Variable.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\W\WwiseGUID.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\RE\W\WwiseSoundHook.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\API.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\IAT.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Impl\DInputAPI.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Impl\PCH.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Impl\Stubs.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Impl\WinAPI.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Impl\XInputAPI.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\InputMap.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Interfaces.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Logger.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\SFSE.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Trampoline.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Utilities.h" />
+    <ClInclude Include="..\..\CommonLibSF\CommonLibSF\include\SFSE\Version.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f6b26184-32cd-4a2b-9aab-e17c224fcb4c}</ProjectGuid>
+    <RootNamespace>CommonLibSF</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)..\spdlog\include;$(SolutionDir)..\CommonLibSF\CommonLibSF\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)..\spdlog\include;$(SolutionDir)..\CommonLibSF\CommonLibSF\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)..\spdlog\include;$(SolutionDir)..\CommonLibSF\CommonLibSF\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)..\spdlog\include;$(SolutionDir)..\CommonLibSF\CommonLibSF\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_SILENCE_ALL_CXX23_DEPRECATION_WARNINGS;_SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS;SPDLOG_COMPILED_LIB</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>SFSE\Impl\PCH.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>SFSE\Impl\PCH.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_SILENCE_ALL_CXX23_DEPRECATION_WARNINGS;_SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS;SPDLOG_COMPILED_LIB</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>SFSE\Impl\PCH.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>SFSE\Impl\PCH.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_SILENCE_ALL_CXX23_DEPRECATION_WARNINGS;_SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS;SPDLOG_COMPILED_LIB</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>SFSE\Impl\PCH.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>SFSE\Impl\PCH.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_SILENCE_ALL_CXX23_DEPRECATION_WARNINGS;_SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS;SPDLOG_COMPILED_LIB</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>SFSE\Impl\PCH.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>SFSE\Impl\PCH.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
