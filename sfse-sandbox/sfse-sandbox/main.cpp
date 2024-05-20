@@ -2,6 +2,7 @@
 
 // These headers should be included by RE/Starfield.h but some of the other headers there are broken
 #include <RE/B/BSTEvent.h>
+#include <RE/B/BGSMovableStatic.h>
 #include <RE/N/NiSmartPointer.h>  // This header is missing from TESBoundObject.h
 #include <RE/T/TESBoundObject.h>
 #include <RE/T/TESForm.h>
@@ -10,6 +11,8 @@
 
 #include <RE/T/TESObjectCELL.h>
 #include <RE/T/TESCellFullyLoadedEvent.h>
+
+#include <Windows.h>
 
 // Removes CommonLibSF's `inline` so that the symbol will export
 #define My_SFSEPluginVersion extern "C" [[maybe_unused]] __declspec(dllexport) constinit SFSE::PluginVersionData SFSEPlugin_Version
@@ -60,16 +63,33 @@ public:
             OBJ_REFR* refr_data = (OBJ_REFR*)&refr->data;
             RE::TESBoundObject* obj = refr_data->objectReference.get();
             form_type = obj ? obj->GetFormType() : RE::FormType::kNONE;
+
+            if (form_type == RE::FormType::kMSTT) {
+                RE::BGSMovableStatic* stat = obj ? obj->As<RE::BGSMovableStatic>() : nullptr;
+                if (stat) {
+                    stat->ForEachKeyword([a_event](RE::BGSKeyword *keyword) -> RE::BSContainer::ForEachResult {
+                        SFSE::log::info("KW: {:x}->{:x}[{}]", a_event.formID, keyword->formID, keyword->GetFormEditorID());
+                        return RE::BSContainer::ForEachResult::kContinue;
+                    });
+                }
+            }
         }
 
         mutex.lock();
         bool first_seen = types_seen.insert(form_type).second;
+        mutex.unlock();
         if (first_seen) {
             SFSE::log::info("path {} seen ({:x})", RE::FormTypeToString(form_type), a_event.formID);
         }
+
+        return RE::BSEventNotifyControl::kContinue;
+    }
+
+    void reset() {
+        mutex.lock();
+        types_seen.clear();
         mutex.unlock();
-
-        return RE::BSEventNotifyControl::kContinue;
+        SFSE::log::info("alerts reset");
     }
 
 private:
@@ -77,51 +97,28 @@ private:
     std::mutex mutex;
 };
 
-class CellAlert : public RE::BSTEventSink<RE::TESCellFullyLoadedEvent> {
-public:
-    typedef RE::TESCellFullyLoadedEvent Event;
-
-    virtual RE::BSEventNotifyControl ProcessEvent(const Event& a_event, RE::BSTEventSource<Event>* a_source) {
-        RE::TESObjectCELL* cell = a_event.cell;
-
-        SFSE::log::info("cell {:x} loaded", cell->formID);
-
-        // FIXME: TESObjectCELL::references seems to point to invalid memory
-        /*
-        cell->ForEachReference(
-            [this](const RE::NiPointer<RE::TESObjectREFR>& ref) -> RE::BSContainer::ForEachResult {
-                RE::FormType form_type = ref->GetFormType();
-
-                mutex.lock();
-                bool first_seen = types_seen.insert(form_type).second;
-                if (first_seen) {
-                    SFSE::log::info("type {} seen", form_type);
-                }
-                mutex.unlock();
-
-                return RE::BSContainer::ForEachResult::kContinue;
+void AlertResetHotkey(FormAlert *alert) {
+    SFSE::log::info("alert thread started");
+    while (true) {
+        if (GetAsyncKeyState(VK_HOME)) {
+            alert->reset();
+            while (GetAsyncKeyState(VK_HOME)) {
+                Sleep(10);
             }
-        );
-        */
-
-        return RE::BSEventNotifyControl::kContinue;
+        }
+        Sleep(10);
     }
-
-private:
-    std::set<RE::FormType> types_seen;
-    std::mutex mutex;
-};
+}
 
 FormAlert g_form_alert;
-CellAlert g_cell_alert;
 
 SFSEPluginLoad(const SFSE::LoadInterface *sfse) {
     Init(sfse);
     spdlog::flush_on(spdlog::level::info);
 
     RE::TESObjectLoadedEvent::GetEventSource()->RegisterSink(&g_form_alert);
-    RE::TESCellFullyLoadedEvent::GetEventSource()->RegisterSink(&g_cell_alert);
-
+    std::thread resetThread(AlertResetHotkey, &g_form_alert);
+    resetThread.detach();
     SFSE::log::info("sink(s) registered");
 
     return true;
