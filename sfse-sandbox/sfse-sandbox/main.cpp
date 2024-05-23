@@ -1,18 +1,15 @@
 #include <SFSE/SFSE.h>
 
 // These headers should be included by RE/Starfield.h but some of the other headers there are broken
+#include <RE/A/ActorValueInfo.h>
 #include <RE/B/BSTEvent.h>
-#include <RE/B/BGSMovableStatic.h>
+#include <RE/B/BGSGenericBaseForm.h>
+#include <RE/B/BGSGenericBaseFormTemplate.h>
 #include <RE/N/NiSmartPointer.h>  // This header is missing from TESBoundObject.h
 #include <RE/T/TESBoundObject.h>
 #include <RE/T/TESForm.h>
 #include <RE/T/TESObjectREFR.h>
 #include <RE/T/TESObjectLoadedEvent.h>
-
-#include <RE/T/TESObjectCELL.h>
-#include <RE/T/TESCellFullyLoadedEvent.h>
-
-#include <Windows.h>
 
 // Removes CommonLibSF's `inline` so that the symbol will export
 #define My_SFSEPluginVersion extern "C" [[maybe_unused]] __declspec(dllexport) constinit SFSE::PluginVersionData SFSEPlugin_Version
@@ -64,51 +61,30 @@ public:
             RE::TESBoundObject* obj = refr_data->objectReference.get();
             form_type = obj ? obj->GetFormType() : RE::FormType::kNONE;
 
-            if (form_type == RE::FormType::kMSTT) {
-                RE::BGSMovableStatic* stat = obj ? obj->As<RE::BGSMovableStatic>() : nullptr;
-                if (stat) {
-                    stat->ForEachKeyword([a_event](RE::BGSKeyword *keyword) -> RE::BSContainer::ForEachResult {
-                        SFSE::log::info("KW: {:x}->{:x}[{}]", a_event.formID, keyword->formID, keyword->GetFormEditorID());
-                        return RE::BSContainer::ForEachResult::kContinue;
-                    });
+            if (form_type == RE::FormType::kGBFM) {
+                RE::BGSGenericBaseForm* gbfm = obj ? obj->As<RE::BGSGenericBaseForm>() : nullptr;
+                if (gbfm) {
+                    const char* id1 = gbfm->formEditorID.c_str();
+
+                    RE::BGSGenericBaseFormTemplate* gbft = gbfm->genericBaseFormTemplate;
+                    const char* id2 = gbft->formEditorID.c_str();
+
+                    id1 = id1 ? id1 : "--";
+                    id2 = id2 ? id2 : "--";
+
+                    SFSE::log::info("GBFM {:x} ({}, {})", uint32_t(gbfm->formID), id1, id2);
+
+                    SFSE::log::info("{:x}[{}]", uint32_t(gbfm->formID), gbft->components.size());
+                    for (const auto& component : gbft->components) {
+                        SFSE::log::info("{:x} -> {}", uint32_t(gbfm->formID), component.c_str());
+                    }
                 }
             }
         }
 
-        mutex.lock();
-        bool first_seen = types_seen.insert(form_type).second;
-        mutex.unlock();
-        if (first_seen) {
-            SFSE::log::info("path {} seen ({:x})", RE::FormTypeToString(form_type), a_event.formID);
-        }
-
         return RE::BSEventNotifyControl::kContinue;
     }
-
-    void reset() {
-        mutex.lock();
-        types_seen.clear();
-        mutex.unlock();
-        SFSE::log::info("alerts reset");
-    }
-
-private:
-    std::set<RE::FormType> types_seen;
-    std::mutex mutex;
 };
-
-void AlertResetHotkey(FormAlert *alert) {
-    SFSE::log::info("alert thread started");
-    while (true) {
-        if (GetAsyncKeyState(VK_HOME)) {
-            alert->reset();
-            while (GetAsyncKeyState(VK_HOME)) {
-                Sleep(10);
-            }
-        }
-        Sleep(10);
-    }
-}
 
 FormAlert g_form_alert;
 
@@ -117,8 +93,6 @@ SFSEPluginLoad(const SFSE::LoadInterface *sfse) {
     spdlog::flush_on(spdlog::level::info);
 
     RE::TESObjectLoadedEvent::GetEventSource()->RegisterSink(&g_form_alert);
-    std::thread resetThread(AlertResetHotkey, &g_form_alert);
-    resetThread.detach();
     SFSE::log::info("sink(s) registered");
 
     return true;
