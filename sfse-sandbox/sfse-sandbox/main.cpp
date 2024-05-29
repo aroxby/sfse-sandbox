@@ -8,6 +8,7 @@
 #include <RE/N/NiSmartPointer.h>  // This header is missing from TESBoundObject.h
 #include <RE/T/TESBoundObject.h>
 #include <RE/T/TESForm.h>
+#include <RE/T/TESFullName.h>
 #include <RE/T/TESObjectREFR.h>
 #include <RE/T/TESObjectLoadedEvent.h>
 
@@ -77,6 +78,21 @@ public:
                     SFSE::log::info("{:x}[{}]", uint32_t(gbfm->formID), gbft->components.size());
                     for (const auto& component : gbft->components) {
                         SFSE::log::info("{:x} -> {}", uint32_t(gbfm->formID), component.c_str());
+                    }
+
+                    class TemplateItem : public RE::TESFullName
+                    {
+                    };
+
+                    RE::BGSMod::Template::Items* item = &gbfm->templateItems;
+                    if (item) {
+                        SFSE::log::info("{:x} ({})", uint32_t(gbfm->formID), item->unk18.c_str());
+                        for(void *vpi : item->unk08) {
+                            // const type_info& info = typeid(*(RE::TBO_InstanceData*)vpi);  // class BGSMod::Template::Item
+                            TemplateItem* item = (TemplateItem*)vpi;
+                            const char* fullname = item->fullName.c_str();
+                            SFSE::log::info("{:x} [{}]", uint32_t(gbfm->formID), fullname ? fullname : "--");
+                        }
                     }
                 }
             }
