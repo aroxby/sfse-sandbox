@@ -49,6 +49,15 @@ public:
     RE::NiPointer<RE::TESBoundObject> objectReference;
 };
 
+RE::TESBoundObject* refrBaseObject(RE::TESObjectREFR* refr) {
+    RE::TESBoundObject* base = nullptr;
+    if (refr) {
+        OBJ_REFR* refr_data = (OBJ_REFR*)&refr->data;
+        base = refr_data->objectReference.get();
+    }
+    return base;
+}
+
 class FormAlert : public RE::BSTEventSink<RE::TESObjectLoadedEvent> {
 public:
     typedef RE::TESObjectLoadedEvent Event;
@@ -57,9 +66,7 @@ public:
         RE::TESForm* form = RE::TESForm::LookupByID(a_event.formID);
         RE::FormType form_type = form ? form->GetFormType() : RE::FormType::kNONE;
         if (form_type == RE::FormType::kREFR) {
-            RE::TESObjectREFR* refr = form->As<RE::TESObjectREFR>();
-            OBJ_REFR* refr_data = (OBJ_REFR*)&refr->data;
-            RE::TESBoundObject* obj = refr_data->objectReference.get();
+            RE::TESBoundObject* obj = refrBaseObject(form->As<RE::TESObjectREFR>());
             form_type = obj ? obj->GetFormType() : RE::FormType::kNONE;
 
             if (form_type == RE::FormType::kGBFM) {
@@ -73,7 +80,7 @@ public:
                     id1 = id1 ? id1 : "--";
                     id2 = id2 ? id2 : "--";
 
-                    SFSE::log::info("GBFM {:x} ({}, {})", uint32_t(gbfm->formID), id1, id2);
+                    SFSE::log::info("GBFM {:x} ids ({}, {})", uint32_t(gbfm->formID), id1, id2);
 
                     SFSE::log::info("{:x}[{}]", uint32_t(gbfm->formID), gbft->components.size());
                     for (const auto& component : gbft->components) {
